@@ -3,10 +3,11 @@
     /* Debug 
      ***********************************************************************/
 
-    #phpinfo();
-    #echo extension_loaded("mongodb") ? "loaded\n" : "not loaded\n";
-    #die();
+    phpinfo();
+  //  echo extension_loaded("mongodb") ? "loaded\n" : "not loaded\n";
+   // die();
 #
+
 
     /* Include all from composer
      ***********************************************************************/
@@ -32,7 +33,7 @@
     /*  Database Connection 
      ***********************************************************************/
 
-    $uri = "mongodb://root:example@persistence:27017/test?ssl=false";
+    //$uri = "mongodb://root:example@persistence:27017/test?ssl=false";
 //    $client = new MongoDB\Client($uri);
 //    $client = new \MongoDB\Client($uri);
 //    $client = new MongoClient();
